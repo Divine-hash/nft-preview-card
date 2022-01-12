@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 50px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: hsl(217, 54%, 11%);
+}
+
+img {
+  display: block;
+}
+
+.card {
+  max-width: 290px;
+  padding: 16px;
+  border-radius: 10px;
+  color: hsl(215, 51%, 70%);
+  background-color: hsl(216, 50%, 16%);
+}
+
+.card > img {
+  width: 100%;
+}
+
+.card-credit img {
+  width: 24px;
+  height: 24px;
+}
