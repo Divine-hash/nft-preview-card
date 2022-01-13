@@ -86,11 +86,14 @@ body {
 
 .card-credit {
   display: flex;
+  align-items: center;
   gap: 10px;
   padding-top: 10px;
 }
 
 .card-credit img {
-  width: 24px;
-  height: 24px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #fff;
+  border-radius: 50%;
 }
