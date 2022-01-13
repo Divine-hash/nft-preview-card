@@ -1,32 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+
 body {
+  font-family: "outfit", sans-serif;
   padding: 50px 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   background-color: hsl(217, 54%, 11%);
-}
-
-img {
-  display: block;
+  gap: 10px;
 }
 
 .card {
-  max-width: 290px;
-  padding: 16px;
+  max-width: 300px;
+  padding: 18px;
   border-radius: 10px;
   color: hsl(215, 51%, 70%);
   background-color: hsl(216, 50%, 16%);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
-.card > img {
+.card .main-image {
+  position: relative;
+}
+
+.card .main-image img {
   width: 100%;
+  border-radius: 10px;
+}
+
+.card .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.card .overlay:hover {
+  background-color: hsla(178, 100%, 50%, 0.5);
+}
+
+.card h3 {
+  font-weight: 600;
+  font-size: 18px;
+  margin: 10px 0 10px 0;
+}
+
+.card a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.card a:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.card-date {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0 10px 0;
+  border-bottom: 1px solid  hsl(215, 32%, 27%);
+}
+
+.card-date > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.card-date div:first-child {
+  color: hsl(178, 100%, 50%);
+}
+
+.card-credit {
+  display: flex;
+  gap: 10px;
+  padding-top: 10px;
 }
 
 .card-credit img {
