@@ -38,7 +38,7 @@ I gave the card structure using HTML, and I defined my base css styles before st
 - Flexbox
 
 ### Continued development
-Though I did not use css grid in this project, I would love to horn my skills with css grid.
+Though I did not use css grid in this project, I would love to hone my skills with css grid.
 
 ## Author
 - Frontend Mentor - [@Divine-hash](https://www.frontendmentor.io/profile/yourusername)
