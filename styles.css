@@ -10,6 +10,7 @@
 body {
   font-family: "outfit", sans-serif;
   font-size: 15px;
+  height: 100vh;
   padding: 50px 30px;
   display: flex;
   justify-content: center;
